@@ -9,6 +9,8 @@ This project implements a robust real-time chat application using Socket.IO for 
 - **Express.js Server**: Provides the foundation for the application
 - **Socket.IO**: Enables real-time, bidirectional communication
 - **MongoDB**: Stores messages, user information, and conversation data
+![4299b98d-edcc-4697-a692-6aef0fc7a8b5](https://github.com/user-attachments/assets/6862698d-fec3-4a0f-b962-4cc52bf3dd4c)
+
 
 ### Event-Driven Architecture
 The application follows an event-driven architecture with these key events:
@@ -18,6 +20,7 @@ The application follows an event-driven architecture with these key events:
 - **receive_message**: Handles incoming messages on the client side
 - **leave_chat**: Manages user exits from chat rooms
 
+![image](https://github.com/user-attachments/assets/864eb39d-0a1b-4abf-b9c5-07131bb18e22)
 
 ### Data Flow
 1. **Connection**: Clients connect to the Socket.IO server
@@ -32,6 +35,7 @@ The application follows an event-driven architecture with these key events:
 - **Message Broadcasting**: Messages sent by a user are broadcasted to all participants in the chatroom
 - **Caching**: In-memory caching for chat history and active users
 - **Presence Awareness**: Real-time tracking of online users
+![image](https://github.com/user-attachments/assets/8686c030-e9ac-4f39-b7dc-7ead773b53c2)
 
 ### Chat Controller
 The chat controller manages connections, message exchange, and user presence:
